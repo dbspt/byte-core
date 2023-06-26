@@ -1,0 +1,23 @@
+{
+  "name": "@dbspt/byte-core",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rimraf ./node_modules/@dbspt/byte-core",
+    "build": "npm run clean && tsc",
+    "test": "npm run build && node ./node_modules/@dbspt/byte-core/byte.js --env=dev"
+  },
+  "keywords": [],
+  "author": "Cleverson Sampaio",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "@types/selenium-webdriver": "^4.1.15",
+    "console-log-colors": "^0.4.0",
+    "dotenv": "^16.1.4",
+    "selenium-webdriver": "^4.9.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "winston": "^3.9.0"
+  }
+}

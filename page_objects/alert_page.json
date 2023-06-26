@@ -1,0 +1,5 @@
+{
+  "Click for JS Alert": "xpath://*[@id='content']/div/ul/li[1]/button",
+  "Click for JS Confirm": "xpath://*[@id='content']/div/ul/li[2]/button",
+  "Click for JS Prompt": "xpath://*[@id='content']/div/ul/li[3]/button"
+}

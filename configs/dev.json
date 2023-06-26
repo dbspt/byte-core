@@ -1,0 +1,13 @@
+{
+  "browserOptions": {
+    "browserName": "chrome",
+    "addArguments": [
+      "--ignore-certificate-errors",
+      "--allow-running-insecure-content",
+      "--disable-extensions"
+    ],
+    "excludeSwitches": ["enable-logging"],
+    "acceptInsecureCerts": true,
+    "headless": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cucumberautocomplete.steps": [
+    "src/step_definitions/**/*_steps.ts",
+    "node_modules/@dbspt/byte-core/src/step_definitions/**/*_steps.js"
+  ],
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.customParameters": [
+    {
+      "parameter": "{jsonObject}",
+      "value": "(it|item {string}|file {string}|{string})"
+    }
+  ]
+}

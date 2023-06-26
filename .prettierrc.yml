@@ -1,0 +1,12 @@
+overrides:
+  - files: ['*.ts', '*.js']
+    options:
+      trailingComma: 'all'
+      tabWidth: 4
+      semi: false
+      singleQuote: true
+      printWidth: 100
+  - files: ['*.yml', '*.toml', '*.json']
+    options:
+      tadWidth: 2
+      singleQuote: true
